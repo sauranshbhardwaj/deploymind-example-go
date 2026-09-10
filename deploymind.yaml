@@ -1,0 +1,19 @@
+schema: 1
+app: ex-go
+framework: go
+health:
+  path: /healthz
+access:
+  routes:
+    - path: /admin/*
+      role: editor
+  members:
+    - user: editor@dogfood.test
+      role: editor
+    - user: viewer@dogfood.test
+      role: viewer
+env:
+  - GREETING_SECRET
+primitives:
+  db:
+    enabled: true
