@@ -1,0 +1,3 @@
+# DeployMind: secret values never enter git (deploymind secrets upload .env)
+.env
+.env.*

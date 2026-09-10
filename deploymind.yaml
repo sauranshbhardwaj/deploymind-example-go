@@ -1,5 +1,5 @@
 schema: 1
-app: ex-go
+app: hello-dogfood
 framework: go
 health:
   path: /healthz
