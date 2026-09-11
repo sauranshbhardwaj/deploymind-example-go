@@ -2,7 +2,7 @@ schema: 1
 app: hello-dogfood
 framework: go
 health:
-  path: /healthz  # drifted
+  path: /healthz
 access:
   routes:
     - path: /admin/*
